@@ -1,0 +1,56 @@
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 bdright">
+  <div class="indexBuyCard">
+      <div id="formPayment">
+          <form action="https://thanhtoanonline.vn/bill/querybill" method="post">
+<h1>Nhập thông tin thanh toán hóa đơn tiền điện</h1>
+<div class="title-form-group">Chọn nhà cung cấp</div>
+<div class="form-group">
+<ul class="listcardstyle listSupplier">
+                  <li data="EVN" class="" tagetTo="inputsupplierelectricbill" data-inputlable="Mã khách hàng">
+<div class="img">
+  <img src="https://thanhtoanonline.vn/assets/frontend/img/bill/electric/electric-evn.jpg">
+</div>
+<div class="txt">Điện lực Hà Nội</div>
+</li>
+      <li data="EVNHCM" class="" tagetTo="inputsupplierelectricbill" data-inputlable="Mã khách hàng">
+<div class="img">
+  <img src="https://thanhtoanonline.vn/assets/frontend/img/bill/electric/electric-envhcm.jpg">
+</div>
+<div class="txt">Điện lực Hồ Chí Minh</div>
+</li>
+      <li data="EVNNPC" class="" tagetTo="inputsupplierelectricbill" data-inputlable="Mã khách hàng">
+<div class="img">
+  <img src="https://thanhtoanonline.vn/assets/frontend/img/bill/electric/electric-ennnpc.jpg">
+</div>
+<div class="txt">Điện lực Miền Bắc</div>
+</li>
+      <li data="EVNCPC" class="" tagetTo="inputsupplierelectricbill" data-inputlable="Mã khách hàng">
+<div class="img">
+  <img src="https://thanhtoanonline.vn/assets/frontend/img/bill/electric/electric-envcpc.jpg">
+</div>
+<div class="txt">Điện lực Miền Trung</div>
+</li>
+      <li data="EVNSPC" class="" tagetTo="inputsupplierelectricbill" data-inputlable="Mã khách hàng">
+<div class="img">
+  <img src="https://thanhtoanonline.vn/assets/frontend/img/bill/electric/electric-envspc.jpg">
+</div>
+<div class="txt">Điện lực Miền Nam</div>
+</li>
+          </ul>
+<input id="inputsupplierelectricbill" name="supplier" type="hidden" value="">
+</div>
+<div class="title-form-group">Nhập số điện thoại</div>
+<div class="form-group">
+<input type="text" class="form-control input-md w50" name="phone" value="" placeholder="Nhập số điện thoại">
+</div>
+<div class="title-form-group">Email</div>
+<div class="form-group">
+<input type="text" class="form-control input-md w50" name="email" value="" placeholder="Email">
+</div>
+<div class="title-form-group" data-toggle="inputLable">Mã khách hàng</div>
+<div class="form-group">
+<input type="text" class="form-control input-md w50" name="customer_code" value="" data-toggle="inputPlaceholder" placeholder="Mã khách hàng">
+</div>
+<div class="form-group clearfix">
+<button type="submit" class="button btnBuyCardMb">Thanh toán</button>
+</div>

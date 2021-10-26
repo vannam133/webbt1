@@ -1,0 +1,84 @@
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 bdright">
+  <div class="indexBuyCard">
+      <form id="formAjax" action="https://thanhtoanonline.vn/ajax/thanh-toan/mua-the-dien-thoai.html" method="post">
+          <div class="title-form-group">Email nhận mã thẻ</div>
+          <div class="form-group">
+              <input type="text" class="form-control input-md w50" name="email" value="" placeholder="Điền mail để nhận mã thẻ">
+          </div>
+          <div class="title-form-group">Chọn loại thẻ</div>
+          <div class="form-group">
+              <div class="form-group">
+                                                                      <ul class="listTypeCard">
+                                                                                                                                              <li    data="VIETTEL">
+                                  <div class="img">
+                                                                                                              <img src="https://thanhtoanonline.vn/uploads/thumbs/type_card/1/300x0/10-49-54-21-03-2019-icon-viettel.png"/>
+                                                                                                      </div>
+                                  <div class="txt"></div>
+                              </li>
+                                                                                                                                                                                                              <li  data="MOBIFONE">
+                                  <div class="img">
+                                                                                                              <img src="https://thanhtoanonline.vn/uploads/thumbs/type_card/2/300x0/01-51-19-21-03-2019-2.png"/>
+                                                                                                      </div>
+                                  <div class="txt"></div>
+                              </li>
+                                                                                                                                                                                                              <li  data="VINAPHONE">
+                                  <div class="img">
+                                                                                                              <img src="https://thanhtoanonline.vn/uploads/thumbs/type_card/3/300x0/01-52-49-21-03-2019-2.png"/>
+                                                                                                      </div>
+                                  <div class="txt"></div>
+                              </li>
+                                                                                                                                                                                                              <li  data="VIETNAMMOBILE">
+                                  <div class="img">
+                                                                                                              <img src="https://thanhtoanonline.vn/uploads/thumbs/type_card/5/300x0/01-54-03-21-03-2019-2.png"/>
+                                                                                                      </div>
+                                  <div class="txt"></div>
+                              </li>
+                                                                                                                                                                                                              <li  data="GMOBILE">
+                                  <div class="img">
+                                                                                                              <img src="https://thanhtoanonline.vn/uploads/thumbs/type_card/6/300x0/01-55-17-21-03-2019-2.png"/>
+                                                                                                      </div>
+                                  <div class="txt"></div>
+                              </li>
+                                                                                                                                                                                                          <input type="hidden" class="card_type" name="card_type" value="">
+                      </ul>
+                                                              </div>
+          </div>
+          <div class="title-form-group">Chọn mệnh giá</div>
+          <div class="form-group">
+                                                              <ul class="listValueCard">
+                                                                                                                                  <li    data="10000">10.000</li>
+                                                                                                                                                                                              <li  data="20000">20.000</li>
+                                                                                                                                                                                              <li  data="30000">30.000</li>
+                                                                                                                                                                                              <li  data="50000">50.000</li>
+                                                                                                                                                                                              <li  data="100000">100.000</li>
+                                                                                                                                                                                              <li  data="200000">200.000</li>
+                                                                                                                                                                                              <li  data="300000">300.000</li>
+                                                                                                                                                                                              <li  data="500000">500.000</li>
+                                                                                                                                                                                              <li  data="1000000">1.000.000</li>
+                                                                                                                                                                                          <input type="hidden" class="card_value" name="card_value" value="0">
+                  </ul>
+                                                      </div>
+          <div class="title-form-group">Số lượng thẻ</div>
+          <div class="form-group">
+              <div class="boxPriceNumQuatity">
+                  <div class="boxNumBuyClick">
+                      <span class="numPrev">-</span>
+                      <span class="showNumClick">1</span>
+                      <span class="numNext">+</span>
+                      <input type="hidden" class="quantity" name="quantity" value="1">
+                  </div>
+
+
+
+
+              </div>
+          </div>
+          <div class="">
+              <label><input type="checkbox" name="invoice" value="1"> Xuất hóa đơn thuế</label>
+          </div>
+          <div id="errorMessage">
+
+          </div>
+          <div class="form-group clearfix">
+              <button type="submit" class="button btnBuyCardMb">Thanh toán</button>
+          </div>
